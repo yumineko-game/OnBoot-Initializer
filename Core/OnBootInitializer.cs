@@ -10,7 +10,7 @@ namespace Yumineko.InitializeOnBoot
 {
     public static class OnBootInitializer
     {
-        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterAssembliesLoaded)]
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         private static void InitializeOnLoad()
         {
             Debug.Log("Initializing OnBoot Initializer");
