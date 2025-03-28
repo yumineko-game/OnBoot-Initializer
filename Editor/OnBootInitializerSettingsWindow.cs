@@ -45,11 +45,7 @@ namespace Yumineko.InitializeOnBoot.Editor
             }
         }
 
-        internal static bool IsEnabled()
-        {
-            Debug.Log(EditorUserSettings.GetConfigValue(EnableKey) == "true");
-            return EditorUserSettings.GetConfigValue(EnableKey) == "true";
-        }
+        internal static bool IsEnabled() => EditorUserSettings.GetConfigValue(EnableKey) == "true";
     }
 }
 #endif

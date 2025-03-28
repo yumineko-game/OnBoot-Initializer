@@ -13,7 +13,6 @@ namespace Yumineko.InitializeOnBoot
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
         private static void InitializeOnLoad()
         {
-            Debug.Log("Initializing OnBoot Initializer");
 #if UNITY_EDITOR
             if (!OnBootInitializerEditorHelper.IsEnabled()) return;
 #endif
@@ -35,7 +34,6 @@ namespace Yumineko.InitializeOnBoot.Editor
         public static bool IsEnabled()
         {
             return OnBootInitializerSettingsWindow.IsEnabled();
-            
         }
     }
 }
