@@ -10,7 +10,7 @@ namespace Yumineko.InitializeOnBoot
 {
     public static class OnBootInitializer
     {
-        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterAssembliesLoaded)]
         private static void InitializeOnLoad()
         {
             Debug.Log("Initializing OnBoot Initializer");
