@@ -33,11 +33,8 @@ namespace Yumineko.InitializeOnBoot.Editor
     {
         public static bool IsEnabled()
         {
-#if UNITY_EDITOR
             return OnBootInitializerSettingsWindow.IsEnabled();
-#else
-            return false;
-#endif
+            
         }
     }
 }
