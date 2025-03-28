@@ -1,9 +1,10 @@
 {
-  "name": "com.yumineko.onbootinitializer",
+  "name": "com.yumineko.onboot-initializer",
   "version": "1.0.0",
   "displayName": "OnBoot Initializer",
-  "description": "RuntimeInitializeOnLoad時にPrefabをInstantiateするためのパッケージ",
-  "unity": "2021.3",
-  "documentationUrl": "https://github.com/yumineko/RuntimeInitializer",
+  "description": "アプリケーション起動時に初期化処理を行うパッケージ",
+  "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+  },
   "author": "Yumineko"
 } 

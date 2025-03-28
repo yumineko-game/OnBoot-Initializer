@@ -13,14 +13,14 @@ Unity起動時に初期化シーンを自動的に読み込むためのシンプ
 
 1. Package ManagerのGitHub URLから：
    ```
-   https://github.com/YourUsername/OnBoot-Initializer.git
+   https://github.com/yumineko-game/OnBoot-Initializer.git
    ```
 
 2. manifest.jsonに直接追加：
    ```json
    {
      "dependencies": {
-       "com.yumineko.onboot-initializer": "https://github.com/YourUsername/OnBoot-Initializer.git"
+       "com.yumineko.onboot-initializer": "https://github.com/yumineko-game/OnBoot-Initializer.git"
      }
    }
    ```
