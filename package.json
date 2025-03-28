@@ -1,6 +1,6 @@
 {
   "name": "com.yumineko.onboot-initializer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "OnBoot Initializer",
   "description": "アプリケーション起動時に初期化処理を行うパッケージ",
   "dependencies": {
