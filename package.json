@@ -1,0 +1,9 @@
+{
+  "name": "com.yumineko.onbootinitializer",
+  "version": "1.0.0",
+  "displayName": "OnBoot Initializer",
+  "description": "RuntimeInitializeOnLoad時にPrefabをInstantiateするためのパッケージ",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/yumineko/RuntimeInitializer",
+  "author": "Yumineko"
+} 
